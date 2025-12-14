@@ -1,0 +1,42 @@
+# Core dependencies for Henry Bot M4 - Delivery Chatbot System
+
+# LLM & AI Framework
+langchain==0.3.27
+langchain-community==0.3.31
+langchain-core==0.3.80
+langchain-openai==0.3.35
+openai==2.8.1
+
+# Vector Storage & Embeddings
+faiss-cpu==1.13.0
+sentence-transformers==5.1.2
+numpy<2.0.0
+
+# Database & ORM
+sqlalchemy==2.0.36           # Database ORM for order management
+alembic==1.14.1              # Database migrations (future use)
+
+# Configuration & Settings
+pydantic==2.12.5
+pydantic-settings==2.11.0
+python-dotenv==1.2.1
+
+# Observability & Monitoring
+langfuse==3.7.0
+
+# Testing
+pytest==8.4.2
+pytest-asyncio==1.2.0
+
+# HTTP Client
+requests==2.32.5
+httpx==0.28.1
+urllib3<2.0  # Compatible with LibreSSL, avoids OpenSSL 1.1.1+ requirement
+
+# Utilities
+tqdm==4.67.1
+tiktoken==0.12.0
+
+# Additional M4 Dependencies
+python-dateutil==2.8.2      # Date parsing and manipulation
+uuid==1.30                  # UUID generation (built-in, but explicit for clarity)
