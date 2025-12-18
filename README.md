@@ -120,13 +120,13 @@ USE_PERSISTENT_STORAGE=true
 
 ```bash
 # Initialize database with schema
-python -m src.main_m4 init
+python -m src.main init
 
 # Seed product catalog (30+ products)
-python -m src.main_m4 seed
+python -m src.main seed
 
 # Check system health
-python -m src.main_m4 status
+python -m src.main status
 ```
 
 ---
@@ -137,7 +137,7 @@ python -m src.main_m4 status
 
 ```bash
 # Start interactive chatbot
-python -m src.main_m4 interactive
+python -m src.main interactive
 ```
 
 **Sample Conversation:**
@@ -173,8 +173,8 @@ Estimated delivery: 3-5 business days
 
 ```bash
 # Process individual queries
-python -m src.main_m4 query --query "Find Bluetooth headphones under $100"
-python -m src.main_m4 query --query "Check order status ORD-123456" --user-id "john@example.com"
+python -m src.main query --query "Find Bluetooth headphones under $100"
+python -m src.main query --query "Check order status ORD-123456" --user-id "john@example.com"
 ```
 
 ### Function Calling Tools
@@ -252,17 +252,17 @@ CREATE TABLE conversations (
 ### Product Search Examples
 
 ```bash
-python -m src.main_m4 query --query "Find iPhones under $1000"
-python -m src.main_m4 query --query "Show me all electronics"
-python -m src.main_m4 query --query "What books do you recommend?"
+python -m src.main query --query "Find iPhones under $1000"
+python -m src.main query --query "Show me all electronics"
+python -m src.main query --query "What books do you recommend?"
 ```
 
 ### Order Processing Examples
 
 ```bash
-python -m src.main_m4 query --query "I want to buy 2 PlayStation 5 consoles"
-python -m src.main_m4 query --query "Check status of order ORD-123456"
-python -m src.main_m4 query --query "I need to cancel my order"
+python -m src.main query --query "I want to buy 2 PlayStation 5 consoles"
+python -m src.main query --query "Check status of order ORD-123456"
+python -m src.main query --query "I need to cancel my order"
 ```
 
 ### Test Scenarios
@@ -402,7 +402,7 @@ WORKDIR /app
 COPY requirements.txt .
 RUN pip install -r requirements.txt
 COPY . .
-CMD ["python", "-m", "src.main_m4", "init"]
+CMD ["python", "-m", "src.main", "init"]
 ```
 
 ---
@@ -422,7 +422,7 @@ Complete workflow tracing includes:
 
 ```bash
 # System health check
-python -m src.main_m4 status
+python -m src.main status
 
 # Expected output:
 # M4 Delivery Chatbot Status:
@@ -450,14 +450,14 @@ python -m src.main_m4 status
 
 ```bash
 # Development setup
-python -m src.main_m4 init --force-rebuild
-python -m src.main_m4 seed
+python -m src.main init --force-rebuild
+python -m src.main seed
 
 # Interactive testing
-python -m src.main_m4 interactive --debug
+python -m src.main interactive --debug
 
 # Batch testing
-python -m src.main_m4 query --query "Test query" --debug
+python -m src.main query --query "Test query" --debug
 ```
 
 ---
