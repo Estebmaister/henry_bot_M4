@@ -20,7 +20,7 @@ from ..config import settings
 from dataclasses import dataclass
 from typing import Dict, Optional, List, Tuple, Any
 import time
-import asyncio
+import re
 import logging
 
 logger = logging.getLogger(__name__)
@@ -148,7 +148,14 @@ class M4DeliveryOrchestrator:
             )
 
         # Use dummy trace context for backward compatibility
-        trace = langfuse_client._create_dummy_trace()
+        trace = langfuse_client.create_trace(
+            name="m4_delivery_chatbot_query",
+            input=f"Query: {query[:100]}...",
+            metadata={
+                'user_id': user_id,
+                'session_id': session_id
+            }
+        )
 
         start_time = time.time()
 
@@ -182,7 +189,6 @@ class M4DeliveryOrchestrator:
                 with trace.span(
                     name="intent_analysis_and_routing",
                     input=query,
-                    as_type="agent",
                     metadata={
                         'stage': 'agent_selection',
                         'function_calling_suggested': function_suggestions.get('use_function_calling', False),
@@ -214,7 +220,6 @@ class M4DeliveryOrchestrator:
                 with trace.span(
                     name=f"{selected_agent}_processing",
                     input=f"Query: {query[:100]}... -> Agent: {selected_agent}",
-                    as_type="agent",
                     metadata={
                         'stage': 'agent_processing',
                         'selected_agent': selected_agent,
@@ -417,7 +422,11 @@ class M4DeliveryOrchestrator:
             purchase_intent = any(term in msg.get('content', '').lower(
             ) for msg in recent_messages for term in purchase_terms)
 
-            if product_discussion and purchase_intent:
+            # Also check for email addresses in purchase context
+            email_pattern = r'\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,}\b'
+            email_provided = bool(re.findall(email_pattern, query))
+
+            if (product_discussion and purchase_intent) or (product_discussion and email_provided):
                 return 'order_agent', 'order_creation', 0.6
 
         # Default to product agent for general inquiries

@@ -79,8 +79,8 @@ A sophisticated dual-agent conversational commerce system that combines RAG-powe
 
 ```bash
 # Clone repository
-git clone <repository-url>
-cd henry_bot_M3
+git clone github.com/estebmaister/henry_bot_M4.git
+cd henry_bot_M4
 
 # Create virtual environment
 python3 -m venv .venv
