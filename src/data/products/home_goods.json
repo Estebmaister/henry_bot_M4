@@ -1,0 +1,122 @@
+[
+  {
+    "sku": "HG-COFFEE-MAKER",
+    "name": "Premium Programmable Coffee Maker",
+    "description": "12-cup programmable coffee maker with thermal carafe, auto-brew timer, and brew strength selector. Wake up to fresh coffee every morning.",
+    "price": 89.99,
+    "category": "home_goods",
+    "stock_count": 145,
+    "weight_kg": 3.2,
+    "dimensions": {
+      "length_cm": 33.0,
+      "width_cm": 24.0,
+      "height_cm": 38.0
+    },
+    "is_active": true
+  },
+  {
+    "sku": "HG-VACUUM-ROBOT",
+    "name": "Smart Robot Vacuum Cleaner",
+    "description": "Intelligent robot vacuum with LiDAR navigation, app control, scheduling, and self-charging. Perfect for automated floor cleaning.",
+    "price": 299.99,
+    "category": "home_goods",
+    "stock_count": 67,
+    "weight_kg": 3.8,
+    "dimensions": {
+      "length_cm": 35.0,
+      "width_cm": 35.0,
+      "height_cm": 9.5
+    },
+    "is_active": true
+  },
+  {
+    "sku": "HG-AIR-FRYER",
+    "name": "Digital Air Fryer 5.8QT",
+    "description": "Large-capacity air fryer with digital controls, 8 preset cooking programs, and rapid air circulation for healthier cooking with less oil.",
+    "price": 129.99,
+    "category": "home_goods",
+    "stock_count": 189,
+    "weight_kg": 5.4,
+    "dimensions": {
+      "length_cm": 34.0,
+      "width_cm": 28.0,
+      "height_cm": 33.0
+    },
+    "is_active": true
+  },
+  {
+    "sku": "HG-BEDDING-SET",
+    "name": "Luxury Egyptian Cotton Bedding Set",
+    "description": "Premium 1000-thread count Egyptian cotton sheet set with deep pockets, sateen weave, and elegant embroidery. Queen size includes flat sheet, fitted sheet, and 2 pillowcases.",
+    "price": 149.99,
+    "category": "home_goods",
+    "stock_count": 98,
+    "weight_kg": 2.1,
+    "dimensions": {
+      "length_cm": 30.0,
+      "width_cm": 25.0,
+      "height_cm": 15.0
+    },
+    "is_active": true
+  },
+  {
+    "sku": "HG-LAMP-DESK",
+    "name": "LED Desk Lamp with Wireless Charging",
+    "description": "Modern LED desk lamp with adjustable brightness, color temperature control, USB charging port, and built-in wireless charging pad.",
+    "price": 79.99,
+    "category": "home_goods",
+    "stock_count": 234,
+    "weight_kg": 1.2,
+    "dimensions": {
+      "length_cm": 18.0,
+      "width_cm": 15.0,
+      "height_cm": 45.0
+    },
+    "is_active": true
+  },
+  {
+    "sku": "HG-BLUE-TOOTH",
+    "name": "Portable Bluetooth Speaker",
+    "description": "Waterproof wireless speaker with 360-degree sound, 12-hour battery life, and built-in microphone. Perfect for outdoor use.",
+    "price": 59.99,
+    "category": "home_goods",
+    "stock_count": 312,
+    "weight_kg": 0.65,
+    "dimensions": {
+      "length_cm": 9.0,
+      "width_cm": 9.0,
+      "height_cm": 22.0
+    },
+    "is_active": true
+  },
+  {
+    "sku": "HG-MIRROR-DECOR",
+    "name": "Decorative Wall Mirror Set of 3",
+    "description": "Elegant set of 3 round mirrors with thin gold frames. Various sizes create an eye-catching wall display for any room.",
+    "price": 89.99,
+    "category": "home_goods",
+    "stock_count": 156,
+    "weight_kg": 3.5,
+    "dimensions": {
+      "length_cm": 60.0,
+      "width_cm": 5.0,
+      "height_cm": 60.0
+    },
+    "is_active": true
+  },
+  {
+    "sku": "HG-PLANT-CERAMIC",
+    "name": "Set of 3 Ceramic Plant Pots",
+    "description": "Modern ceramic planters with drainage holes and matching saucers. Includes small, medium, and large sizes for various plants.",
+    "price": 44.99,
+    "category": "home_goods",
+    "stock_count": 278,
+    "weight_kg": 2.8,
+    "dimensions": {
+      "length_cm": 25.0,
+      "width_cm": 25.0,
+      "height_cm": 30.0
+    },
+    "is_active": true
+  }
+]

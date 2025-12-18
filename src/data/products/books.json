@@ -1,0 +1,122 @@
+[
+  {
+    "sku": "BK-AI-REVOLUTION",
+    "name": "The AI Revolution: The Road to Superintelligence",
+    "description": "Comprehensive guide to artificial intelligence development and its impact on society. Covers machine learning, neural networks, and future AI capabilities.",
+    "price": 29.99,
+    "category": "books",
+    "stock_count": 145,
+    "weight_kg": 0.45,
+    "dimensions": {
+      "length_cm": 23.4,
+      "width_cm": 15.6,
+      "height_cm": 3.2
+    },
+    "is_active": true
+  },
+  {
+    "sku": "BK-CLEAN-CODE",
+    "name": "Clean Code: A Handbook of Agile Software Craftsmanship",
+    "description": "Essential guide for software developers on writing clean, maintainable code. Covers best practices, refactoring techniques, and design patterns.",
+    "price": 42.99,
+    "category": "books",
+    "stock_count": 89,
+    "weight_kg": 0.63,
+    "dimensions": {
+      "length_cm": 23.5,
+      "width_cm": 19.1,
+      "height_cm": 3.3
+    },
+    "is_active": true
+  },
+  {
+    "sku": "BK-PSYCH-MONEY",
+    "name": "The Psychology of Money: Timeless Lessons on Wealth",
+    "description": "Fascinating exploration of how people think about money and make financial decisions. Offers practical insights for better money management.",
+    "price": 27.99,
+    "category": "books",
+    "stock_count": 234,
+    "weight_kg": 0.36,
+    "dimensions": {
+      "length_cm": 21.6,
+      "width_cm": 14.0,
+      "height_cm": 2.5
+    },
+    "is_active": true
+  },
+  {
+    "sku": "BK-DUNE-NOVEL",
+    "name": "Dune: Frank Herbert's Epic Science Fiction Masterpiece",
+    "description": "Classic science fiction novel set on the desert planet Arrakis. Epic story of politics, religion, and ecology in a distant future.",
+    "price": 18.99,
+    "category": "books",
+    "stock_count": 178,
+    "weight_kg": 0.52,
+    "dimensions": {
+      "length_cm": 24.6,
+      "width_cm": 16.3,
+      "height_cm": 4.8
+    },
+    "is_active": true
+  },
+  {
+    "sku": "BK-ATOMIC-HABITS",
+    "name": "Atomic Habits: Tiny Changes, Remarkable Results",
+    "description": "Practical guide to building good habits and breaking bad ones. Evidence-based strategies for personal and professional improvement.",
+    "price": 24.99,
+    "category": "books",
+    "stock_count": 312,
+    "weight_kg": 0.4,
+    "dimensions": {
+      "length_cm": 24.6,
+      "width_cm": 16.3,
+      "height_cm": 2.9
+    },
+    "is_active": true
+  },
+  {
+    "sku": "BK-STARTUP-ECO",
+    "name": "The Lean Startup: How Today's Entrepreneurs Use Continuous Innovation",
+    "description": "Revolutionary approach to business startups focusing on rapid iteration and customer feedback. Essential reading for entrepreneurs.",
+    "price": 31.99,
+    "category": "books",
+    "stock_count": 98,
+    "weight_kg": 0.48,
+    "dimensions": {
+      "length_cm": 22.9,
+      "width_cm": 15.2,
+      "height_cm": 2.5
+    },
+    "is_active": true
+  },
+  {
+    "sku": "BK-SAPIENS-HISTORY",
+    "name": "Sapiens: A Brief History of Humankind",
+    "description": "Engaging exploration of human history from the Stone Age to the modern era. Challenges conventional understanding of human development.",
+    "price": 22.99,
+    "category": "books",
+    "stock_count": 156,
+    "weight_kg": 0.51,
+    "dimensions": {
+      "length_cm": 24.1,
+      "width_cm": 16.2,
+      "height_cm": 4.3
+    },
+    "is_active": true
+  },
+  {
+    "sku": "BK-DESIGN-THINKING",
+    "name": "Design Thinking: A Guide to Creative Problem Solving",
+    "description": "Comprehensive introduction to design thinking methodology for innovation and problem-solving across various domains and industries.",
+    "price": 34.99,
+    "category": "books",
+    "stock_count": 67,
+    "weight_kg": 0.58,
+    "dimensions": {
+      "length_cm": 23.5,
+      "width_cm": 19.1,
+      "height_cm": 2.8
+    },
+    "is_active": true
+  }
+]

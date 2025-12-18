@@ -1,0 +1,122 @@
+[
+  {
+    "sku": "ELC-IP15-128",
+    "name": "iPhone 15 Pro 128GB",
+    "description": "Latest iPhone with A17 Pro chip, titanium design, and advanced camera system. Features USB-C connectivity, ProMotion display, and improved battery life.",
+    "price": 999.99,
+    "category": "electronics",
+    "stock_count": 45,
+    "weight_kg": 0.187,
+    "dimensions": {
+      "length_cm": 14.66,
+      "width_cm": 7.06,
+      "height_cm": 0.81
+    },
+    "is_active": true
+  },
+  {
+    "sku": "ELC-MBP14-256",
+    "name": "MacBook Pro 14-inch M3",
+    "description": "Professional laptop with M3 chip, 14.2-inch Liquid Retina XDR display, 16GB RAM, and 256GB SSD. Perfect for creative professionals and developers.",
+    "price": 1999.99,
+    "category": "electronics",
+    "stock_count": 23,
+    "weight_kg": 1.6,
+    "dimensions": {
+      "length_cm": 31.26,
+      "width_cm": 22.12,
+      "height_cm": 1.55
+    },
+    "is_active": true
+  },
+  {
+    "sku": "ELC-PS5-1TB",
+    "name": "PlayStation 5 Console 1TB",
+    "description": "Next-generation gaming console with ultra-high speed SSD, 4K gaming, ray tracing, and 3D audio. Includes one DualSense wireless controller.",
+    "price": 499.99,
+    "category": "electronics",
+    "stock_count": 67,
+    "weight_kg": 4.5,
+    "dimensions": {
+      "length_cm": 39.0,
+      "width_cm": 26.0,
+      "height_cm": 10.4
+    },
+    "is_active": true
+  },
+  {
+    "sku": "ELC-SAM65",
+    "name": "Samsung 65-inch 4K Smart TV",
+    "description": "Crystal UHD 4K processor, HDR support, built-in streaming apps, and voice control. Features multiple HDMI ports and sleek design.",
+    "price": 749.99,
+    "category": "electronics",
+    "stock_count": 18,
+    "weight_kg": 21.3,
+    "dimensions": {
+      "length_cm": 145.1,
+      "width_cm": 83.3,
+      "height_cm": 5.9
+    },
+    "is_active": true
+  },
+  {
+    "sku": "ELC-NOISE-CANCEL",
+    "name": "Sony WH-1000XM5 Headphones",
+    "description": "Industry-leading noise canceling with exceptional sound quality. 30-hour battery life, comfortable fit, and multipoint connectivity.",
+    "price": 399.99,
+    "category": "electronics",
+    "stock_count": 89,
+    "weight_kg": 0.25,
+    "dimensions": {
+      "length_cm": 25.4,
+      "width_cm": 20.3,
+      "height_cm": 9.4
+    },
+    "is_active": true
+  },
+  {
+    "sku": "ELC-TAB-IPAD",
+    "name": "iPad Air 5th Generation",
+    "description": "10.9-inch Liquid Retina display with True Tone, M1 chip, 64GB storage, and supports Apple Pencil and Magic Keyboard.",
+    "price": 599.99,
+    "category": "electronics",
+    "stock_count": 34,
+    "weight_kg": 0.462,
+    "dimensions": {
+      "length_cm": 24.76,
+      "width_cm": 17.85,
+      "height_cm": 0.61
+    },
+    "is_active": true
+  },
+  {
+    "sku": "ELC-WATCH-S9",
+    "name": "Apple Watch Series 9",
+    "description": "Advanced health monitoring, fitness tracking, and seamless iPhone integration. Features always-on display and crash detection.",
+    "price": 399.99,
+    "category": "electronics",
+    "stock_count": 56,
+    "weight_kg": 0.038,
+    "dimensions": {
+      "length_cm": 4.5,
+      "width_cm": 3.8,
+      "height_cm": 1.08
+    },
+    "is_active": true
+  },
+  {
+    "sku": "ELC-CAM-GH6",
+    "name": "Canon EOS R6 Mirrorless Camera",
+    "description": "Full-frame mirrorless camera with 20MP sensor, 4K video recording, and advanced autofocus system. Perfect for photography enthusiasts.",
+    "price": 2499.99,
+    "category": "electronics",
+    "stock_count": 12,
+    "weight_kg": 0.688,
+    "dimensions": {
+      "length_cm": 13.8,
+      "width_cm": 10.4,
+      "height_cm": 8.8
+    },
+    "is_active": true
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "sku": "CL-JEANS-512",
+    "name": "Levi's 512 Slim Fit Jeans",
+    "description": "Classic slim fit jeans with comfortable stretch denim. Features five-pocket styling, zip fly, and iconic Levi's branding. Available in various washes.",
+    "price": 79.99,
+    "category": "clothing",
+    "stock_count": 234,
+    "weight_kg": 0.68,
+    "dimensions": {
+      "length_cm": 30.0,
+      "width_cm": 20.0,
+      "height_cm": 5.0
+    },
+    "is_active": true
+  },
+  {
+    "sku": "CL-HOODIE-PREMIUM",
+    "name": "Premium Cotton Hoodie",
+    "description": "Ultra-soft fleece-lined hoodie with kangaroo pocket, adjustable drawstring hood, and ribbed cuffs. Perfect for casual comfort.",
+    "price": 59.99,
+    "category": "clothing",
+    "stock_count": 189,
+    "weight_kg": 0.52,
+    "dimensions": {
+      "length_cm": 28.0,
+      "width_cm": 22.0,
+      "height_cm": 4.0
+    },
+    "is_active": true
+  },
+  {
+    "sku": "CL-TSHIRT-ORGANIC",
+    "name": "Organic Cotton T-Shirt 3-Pack",
+    "description": "Pack of three premium organic cotton t-shirts in assorted colors. Breathable fabric with comfortable fit and durable construction.",
+    "price": 34.99,
+    "category": "clothing",
+    "stock_count": 445,
+    "weight_kg": 0.24,
+    "dimensions": {
+      "length_cm": 25.0,
+      "width_cm": 18.0,
+      "height_cm": 3.0
+    },
+    "is_active": true
+  },
+  {
+    "sku": "CL-JACKET-DENIM",
+    "name": "Classic Denim Jacket",
+    "description": "Timeless denim jacket with button-front closure, chest pockets, and adjustable waist tabs. Versatile style for all seasons.",
+    "price": 89.99,
+    "category": "clothing",
+    "stock_count": 123,
+    "weight_kg": 0.82,
+    "dimensions": {
+      "length_cm": 32.0,
+      "width_cm": 24.0,
+      "height_cm": 6.0
+    },
+    "is_active": true
+  },
+  {
+    "sku": "CL-SNEAKERS-COMFORT",
+    "name": "Comfort Walking Sneakers",
+    "description": "Lightweight athletic sneakers with memory foam insole, breathable mesh upper, and durable rubber outsole. Perfect for daily walking.",
+    "price": 64.99,
+    "category": "clothing",
+    "stock_count": 298,
+    "weight_kg": 0.28,
+    "dimensions": {
+      "length_cm": 28.0,
+      "width_cm": 10.0,
+      "height_cm": 9.0
+    },
+    "is_active": true
+  },
+  {
+    "sku": "CL-DRESS-SUMMER",
+    "name": "Floral Summer Dress",
+    "description": "Elegant floral print dress with A-line silhouette, short sleeves, and comfortable waist tie. Perfect for warm weather occasions.",
+    "price": 49.99,
+    "category": "clothing",
+    "stock_count": 167,
+    "weight_kg": 0.35,
+    "dimensions": {
+      "length_cm": 27.0,
+      "width_cm": 20.0,
+      "height_cm": 4.0
+    },
+    "is_active": true
+  },
+  {
+    "sku": "CL-PANTS-CHINO",
+    "name": "Classic Chino Pants",
+    "description": "Versatile chino pants with slim straight fit, flat-front design, and wrinkle-resistant fabric. Professional yet comfortable.",
+    "price": 54.99,
+    "category": "clothing",
+    "stock_count": 201,
+    "weight_kg": 0.45,
+    "dimensions": {
+      "length_cm": 30.0,
+      "width_cm": 18.0,
+      "height_cm": 4.0
+    },
+    "is_active": true
+  },
+  {
+    "sku": "CL-CARDIGAN-CASHMERE",
+    "name": "Luxury Cashmere Cardigan",
+    "description": "Ultra-soft cashmere blend cardigan with open-front design, long sleeves, and ribbed trim. Elegant layering piece for any outfit.",
+    "price": 119.99,
+    "category": "clothing",
+    "stock_count": 78,
+    "weight_kg": 0.32,
+    "dimensions": {
+      "length_cm": 26.0,
+      "width_cm": 22.0,
+      "height_cm": 5.0
+    },
+    "is_active": true
+  }
+]
